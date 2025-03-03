@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Tituloooo</title>
+        <title>Tituloooo</title>    
 
     </head>
     <body>
@@ -41,8 +41,50 @@
             <li>lista uno</li>
             <li>lista dos</li>
         </ul>
+        
+        <!--La etiqueta de contenedor <nav> define un conjunto de enlaces 
+            que permiten al usuario navegar entre las páginas de un sitio web. -->
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+        </nav>
+              
+        <!--Para saltar a una parte específica de un sitio web de una sola página,
+         primero debes marcar la sección con el atributo 'id'.
+        -->
+        <h2 id="seccionnnn1">Este es el encabezado de la Sección 1</h2>
+        <a href="#seccion1">Ir a la Sección 1</a>
+        
+        <!--Los formularios están compuestos por elementos de entrada como campos de texto, 
+        casillas de verificación y botones de envío. 
+        Estos elementos de entrada se anidan dentro de la etiqueta contenedora <form>.-->
+        <form>
+            <label>email:</label>
+            <input type="text">
+            <br></br>
+            <input type="date">
+            <input type="checkbox">
+        </form>
 
+        <br></br>
+        <form>
+            <input type="text" id="r1">
+            <label for="r1">Prueba 1</label>
+        </form>
+
+        <br></br>
+        <!--El atributo name se utiliza para hacer referencia a los datos después de enviar el formulario.-->
+        <form>
+            <input type="text" name="email" value="correo@email.com">
+            <input type="text" name="city">
+            <input type="submit">
+        </form>
+        
+                
 
         
+
+
+
     </body>
 </html>
